@@ -1,3 +1,5 @@
+/* ARMSTRONG_NUMBER CHECK */
+
 #include<stdio.h>
 #include<math.h>
 
