@@ -1,3 +1,5 @@
+/* INSERTING 1 IN A CERTAIN POSITION */
+
 #include<stdio.h>
 int setBit(int num, int position) {
     return num | (1 << position);
