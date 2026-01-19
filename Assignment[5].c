@@ -1,3 +1,5 @@
+/* REVERSING AN ARRAY */
+
 #include<stdio.h>
 void reverseArray(int arr[], int size) {
     int i,j=size-1;
