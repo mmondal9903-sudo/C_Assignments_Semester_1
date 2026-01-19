@@ -1,3 +1,5 @@
+/* DOING BINARY SEARCH TO FIND THE TARGETED ELEMENT INSIDE AN ARRAY */
+
 #include<stdio.h>
 int binarySearch(int arr[], int size, int target) {
     int low = 0, mid, high = size-1;
