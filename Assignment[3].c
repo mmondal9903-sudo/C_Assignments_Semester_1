@@ -1,3 +1,5 @@
+/* PERFECT_NUMBER CHECK */
+
 #include<stdio.h>
 int isPerfect(int num) {
     int sum=0,i;
