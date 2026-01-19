@@ -1,3 +1,5 @@
+/* ASSIGNMENT 1 [PRIME CHECK] */
+
 #include<stdio.h>
 #include<math.h>
 int isPrime(int num){
