@@ -1,3 +1,5 @@
+/* COUNTING 1s INSIDE A DECIMEL NUMBER */
+
 #include<stdio.h>
 int countSetBits(int num) {
     int count = 0;
