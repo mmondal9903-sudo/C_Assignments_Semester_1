@@ -1,3 +1,5 @@
+/* FINDING THE LARGEST NUMBER IN AN ARRAY */
+
 #include<stdio.h>
 int findLargest(int arr[], int size) {
     int i,m=arr[0];
