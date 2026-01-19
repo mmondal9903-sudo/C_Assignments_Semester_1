@@ -1,3 +1,5 @@
+/* COUNTING THE NUMBER OF DAYS IN AN YEAR */
+
 #include<stdio.h>
 int main() {
     int month, year, days;
