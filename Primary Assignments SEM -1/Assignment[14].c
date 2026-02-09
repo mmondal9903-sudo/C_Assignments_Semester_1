@@ -6,7 +6,7 @@ int main() {
     int ch;
     f = fopen(__FILE__,"r");
     if (f==NULL) {
-        printf("Error : File opening FAILED!");
+        printf("ERROR : File opening FAILED!");
         return 1;
     }
     ch = fgetc(f);
