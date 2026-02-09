@@ -6,11 +6,13 @@ int main() {
     int ch;
     f = fopen(__FILE__,"r");
     if (f==NULL) {
-        printf("Error File opening FAILED!");
+        printf("Error : File opening FAILED!");
         return 1;
     }
-    while ((ch = fgetc(f)) != EOF) {
+    ch = fgetc(f);
+    while (ch != EOF) {
         printf("%c",ch);
+        ch = fgetc(f);
     }
     fclose(f);
     return 0;
